@@ -2,9 +2,41 @@
     <head>
         <meta charset="UTF-8" />
         <title>Code Club Links</title>
+		<style>
+			body { background-color: #EEE; }
+			div.links { width: 500px; margin-left: 100px; }
+			div.right { width: auto; float: right; }
+			a.linkblock { 
+							display: block;
+							background-color: white;
+							margin: 8px;
+							padding-left: 8px;
+							padding-right: 8px;
+							width: auto;
+							padding-top: 1px;
+							padding-bottom: 8px; 
+							border-radius: 10px;
+						}
+			a.linkblock h3 { margin-top: 8px; }
+			a.linkblock:hover { border: 1px solid }
+		</style>
     </head>
     <body>
-        <h1>Hello World</h1>
-        <p>Nothing to see here yet...</p>
+		<div class="links">
+			<h1>Code Club Ideas</h1>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/dice/">
+				<h3>Dice</h3>
+				<p>Shake the micro:bit to generate random numbers.</p>
+			</a>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/graphical-dice">
+				<h3>Graphical Dice</h3>
+				<p>Use the LEDs to make your numbers look like dice face patterns.</p>
+			</a>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/rock-paper-scissors/">
+				<h3>Rock, Paper, Scissors</h3>
+				<p>Make the micro:bit play rock, paper, scissors.</p>
+			</a>
+		</div>
+		<div class="right" />
     </body>
 </html>
