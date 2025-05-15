@@ -3,9 +3,8 @@
         <meta charset="UTF-8" />
         <title>Code Club Links</title>
 		<style>
-			body { background-color: #EEE; }
-			div.links { width: 500px; margin-left: 100px; }
-			div.right { width: auto; float: right; }
+			body { background-color: #EEE; font-family: verdana, arial, sans-serif; }
+			div.links { max-width: 800px; margin: auto; }
 			a.linkblock { 
 							display: block;
 							background-color: white;
@@ -16,48 +15,95 @@
 							padding-top: 1px;
 							padding-bottom: 8px; 
 							border-radius: 10px;
+							min-height: 110px;
 						}
 			a.linkblock h3 { margin-top: 8px; }
 			a.linkblock:hover { border: 1px solid }
+			a.linkblock img { float: left; height: 100px; margin-top: 5px; margin-right: 10px; }
+			p.footnote { font-size: 0.6em; }
 		</style>
     </head>
     <body>
 		<div class="links">
-			<h1>Code Club Links</h1>
-			<p>For all of these projects, start by opening the instructions page and scrolling down to where it says "<b>Step 1: Create a New Scratch project</b>". Skip logging in to your Scratch account.</p>
-			<a class="linkblock" href="https://www.codewizardshq.com/how-to-make-a-maze-in-scratch-in-7-steps/" target="_blank">
-				<h3>Maze Game</h3>
+			<h1>Code Club Links - micro:bit</h1>
+			<h2>Get Started</h2>
+			<p>First <a href="https://makecode.microbit.org" target="_blank">click here</a> to open the micro:bit code editor in a new browser tab, then come back to this tab to continue with these instructions.</p>
+			<p>The first project that we're going to make is a simple dice, so let's create a new project named My Dice and get ready to follow the tutorial:
+				<ul>
+					<li>In the code editor click on the New Project button to start a new project.</li>
+					<img src="new_project.png" alt="New Project button" />
+					<li>Type "My Dice" for the project name.</li>
+					<img src="new_project_name.png" alt="New Project Name dialog" />
+					<li>Click on the green "Create" button.</li>
+					<li>You'll see the micro:bit code editor. This is very like Scratch - you can add new blocks by finding them in the blocks menu (where it says Basic, Input and so on) and get rid of blocks by dragging them out of the code area onto the blocks menu again.</li>
+					<img src="code_editor.png" alt="Code Editor screenshot" />
+					<li>Click on the "Simple Dice Roller" link on this page. This will open a new browser tab with instructions on programming a dice roller. There are two short videos to watch too if you want. Follow those instructions then come back here to find out how to get your program onto the micro:bit.</li>
+					<li>Once your program is working on the simulator, you can put it onto your micro:bit:
+						<ul>
+							<li>Plug your micro:bit into the USB socket if you haven't already.</li>
+							<li>Click the purple "Download" button.</li>
+							<li>If pairing instructions appear, follow them. This should only happen the first time you download to the micro:bit.</li>
+							<li>Wait until the download finishes, then try using your program on the micro:bit.</li>
+						</ul>
+					</li>
+					<li>Repeat these steps for the other 'First Projects' listed below, then try any others that you want if you have time.</li>
+				</ul>
+			</p>
+			<p>If you're interested in Python programming, you can click the down arrow beside "JavaScript" at the top of the code editor window and select "Python" to see the Python code that would do the same as your blocks program. Click "Blocks" to get back to the block programming view.</p>
+			<h2>First Projects</h2>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/dice/" target="_blank">
+				<img src="dice_roller.png" />
+				<h3>Simple Dice Roller</h3>
+				<p>Learn how to show random numbers on the LED display and respond to the micro:bit being shaken.</p>
+			</a>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/graphical-dice/" target="_blank">
+				<img src="dotty_dice.png" />
+				<h3>Dotty Dice</h3>
+				<p>Make the LED display look like dice faces instead of numbers. This project teaches you how to set any pattern on the LED display, and introduces using variables and if-else blocks to control what your program does.</p>
+				<p>There's no video here - just read the steps on the page and make sure your code looks like the sample it gives.</p>
+			</a>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/rock-paper-scissors/" target="_blank">
+				<img src="rock_paper_scissors.png" />
+				<h3>Rock Paper Scissors</h3>
+				<p>Make the micro:bit play Rock Paper Scissors, or at least choose plays for you.</p>
+				<p>The same sort of program as Dotty Dice but you might want to come back to this one after looking at Teleporting Duck and see if you can make two micro:bits play together and work out who won.</p>
+			</a>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/animated-animals/" target="_blank">
+				<img src="animated_duck.gif" />
+				<h3>Animated Animals</h3>
+				<p>Learn how to make simple animations on the LED display.</p>
+			</a>
+			<h2>More To Try</h2>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/teleporting-duck/" target="_blank">
+				<h3>Teleporting Duck</h3>
+				<p>Make a duck teleport between two micro:bits. You'll need to work with a friend to test this one.</p>
+			</a>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/group-teleporting-duck/" target="_blank">
+				<h3>Group Teleporting Duck</h3>
+				<p>Once you've got your Teleporting Duck working, follow this project to let it travel to more than one other micro:bit.</p>
+			</a>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/tell-me-a-secret/" target="_blank">
+				<h3>Tell Me A Secret</h3>
 				<p></p>
 			</a>
-			<a class="linkblock" href="https://www.codewizardshq.com/how-to-make-a-platformer-on-scratch/" target="_blank">
-				<h3>Platform Game</h3>
-				<p></p>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/scratch-theremin/" target="_blank">
+				<h3>Make Music - The micro:bit Theremin</h3>
+				<p>Use the micro:bit to make music. This project uses the Scratch editor we worked with last week. Ask for help to get Scratch Link working so that Scratch can talk to the micro:bit.</p>
 			</a>
-			<a class="linkblock" href="https://www.codewizardshq.com/how-to-make-flappy-bird-on-scratch/" target="_blank">
-				<h3>Flappy Bird Game</h3>
-				<p></p>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/scratch-hungry-dino/" target="_blank">
+				<h3>Game Controller</h3>
+				<p>Turn the micro:bit into a simple game controller. This project uses the Scratch editor we worked with last week. Ask for help to get Scratch Link working so that Scratch can talk to the micro:bit.</p>
 			</a>
-			<a class="linkblock" href="https://www.codewizardshq.com/how-to-make-a-clicker-game-on-scratch/" target="_blank">
-				<h3>Cookie Clicker game</h3>
-				<p></p>
+			<a class="linkblock" href="https://microbit.org/projects/make-it-code-it/" target="_blank">
+				<h3>Lots of other projects...</h3>
+				<p>There are lots of other projects to try. Have a go at anything on the projects page, but make sure you pick ones that don't need other equipment that we don't have!</p>
 			</a>
-			<a class="linkblock" href="https://www.codewizardshq.com/how-to-make-a-game-on-scratch-with-levels/" target="_blank">
-				<h3>Dragon Fruit Collector game</h3>
-				<p></p>
-			</a>
-			<a class="linkblock" href="https://www.codewizardshq.com/scratch-tutorial-for-kids-flying-space-cat/" target="_blank">
-				<h3>Space Cat Crystal Collector game</h3>
-				<p>The instructions say to download a starter file, but don't bother. Instead:
-				</p>
-			</a>
-			<ul>
-				<li>Go to the <a href="https://scratch.mit.edu/projects/735224723/">finished example project</a> and click the "See Inside" button.</li>
-				<li>Delete the Cat Flyin, Crystal and Game Over sprites.</li>
-				<li>Select the Stars sprite and delete all of its code. Then click the eye with a line through it icon (hide)  for the "Show" setting.<img src="eye_icon.png" /></li>
-				<li>Now follow the rest of the instructions to make your own game. When you're told to upload stars.png for the Stars sprite, just unhide the one you hid instead.</li>
-			</ul>
+			<hr>
+			<p class="footnote">
+			    The images on this page are either taken from the <a href="https://microbit.org/">Micro:bit Educational Foundation's website</a> or are screen shots from the <a href="https://makecode.microbit.org/">micro:bit code editor</a>.
+				The images from Micro:bit Educational Foundation's website are made available by them under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution - ShareAlike 4.0 International (CC BY-SA 4.0) licence</a>.
+			</p>
 		</div>
-		<div class="right" />
     </body>
 </html>
 

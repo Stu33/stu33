@@ -1,0 +1,5 @@
+
+The images on this page are either taken from the Micro:bit Educational Foundation's website (https://microbit.org/) or are screen shots from the micro:bit code editor (https://makecode.microbit.org/).
+
+The images from Micro:bit Educational Foundation's website are made available by them under the Creative Commons Attribution - ShareAlike 4.0 International (CC BY-SA 4.0) licence (https://creativecommons.org/licenses/by-sa/4.0/).
+
